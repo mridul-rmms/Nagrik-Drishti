@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Nagrik Drishti: AI-assisted civic grievance intelligence for Bihar." />
+    <title>Nagrik Drishti | Bihar civic intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/tokens.css" />
+    <link rel="stylesheet" href="/styles/layout.css" />
+    <link rel="stylesheet" href="/styles/components.css" />
+  </head>
+  <body>
+    <div class="app-frame">
+      <aside class="sidebar" aria-label="Main navigation">
+        <a href="#dashboard" class="brand" data-view-link="dashboard" aria-label="Nagrik Drishti home">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span><strong>Nagrik</strong><em>Drishti</em></span>
+        </a>
+        <p class="rail-label">BIHAR CIVIC INTELLIGENCE</p>
+        <nav class="navigation">
+          <button class="nav-link is-active" data-view-link="dashboard"><span>▦</span>Command centre</button>
+          <button class="nav-link" data-view-link="monitoring"><span>＋</span>Monitoring inbox</button>
+          <button class="nav-link" data-view-link="clusters"><span>◈</span>Issue clusters <b id="navClusterCount">—</b></button>
+          <button class="nav-link" data-view-link="insights"><span>⌁</span>Insights & graph</button>
+        </nav>
+        <div class="rail-bottom">
+          <div class="privacy-card"><span>✓</span><p>Public-source triage<small>Human verification required</small></p></div>
+          <div class="officer"><span class="avatar">DO</span><p>Demo Officer<small>Patna pilot workspace</small></p></div>
+        </div>
+      </aside>
+      <main class="main-content">
+        <header class="topbar">
+          <button id="menuButton" class="icon-button mobile-only" aria-label="Open navigation">☰</button>
+          <div><p class="eyebrow" id="pageEyebrow">LIVE CIVIC INTELLIGENCE</p><h1 id="pageTitle">Command centre</h1></div>
+          <div class="topbar-actions"><p class="sync-status" id="syncStatus"><i></i>Connecting to local API</p><button class="button button-primary" data-action="open-monitoring">＋ Analyse complaint</button></div>
+        </header>
+        <section id="app" class="view-region" aria-live="polite"></section>
+      </main>
+    </div>
+    <div id="drawerRoot"></div>
+    <div id="toastRoot" class="toast-root" aria-live="polite"></div>
+    <script type="module" src="/scripts/app.js"></script>
+  </body>
+</html>

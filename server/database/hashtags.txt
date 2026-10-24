@@ -1,0 +1,201 @@
+"Bihar Road Problem" OR "बिहार सड़क समस्या"
+OR "Bad Roads Bihar" OR "बिहार में खराब सड़क"
+OR "Road Complaint Bihar" OR "बिहार सड़क शिकायत"
+OR "Potholes Bihar" OR "बिहार में सड़क के गड्ढे"
+OR "Road Repair Bihar" OR "बिहार सड़क मरम्मत"
+OR "#BiharRoadProblem" OR "#बिहारसड़कसमस्या"
+OR "#BadRoadsBihar" OR "#खराबसड़कबिहार"
+OR "#PotholesBihar" OR "#बिहारसड़कगड्ढे"
+
+OR
+
+"Bihar Electricity Problem" OR "बिहार बिजली समस्या"
+OR "Power Cut Bihar" OR "बिहार बिजली कटौती"
+OR "No Electricity Bihar" OR "बिहार में बिजली नहीं"
+OR "Electricity Complaint Bihar" OR "बिहार बिजली शिकायत"
+OR "Transformer Problem Bihar" OR "बिहार ट्रांसफार्मर समस्या"
+OR "Low Voltage Bihar" OR "बिहार लो वोल्टेज"
+OR "#BiharElectricityProblem" OR "#बिहारबिजलीसमस्या"
+OR "#PowerCutBihar" OR "#बिहारबिजलीकटौती"
+OR "#BijliNahiHai" OR "#बिजलीनहींहै"
+
+OR
+
+"Bihar Water Crisis" OR "बिहार जल संकट"
+OR "Water Problem Bihar" OR "बिहार पानी समस्या"
+OR "Drinking Water Problem Bihar" OR "बिहार पेयजल समस्या"
+OR "No Water Bihar" OR "बिहार में पानी नहीं"
+OR "Water Supply Problem Bihar" OR "बिहार जलापूर्ति समस्या"
+OR "#BiharWaterCrisis" OR "#बिहारजलसंकट"
+OR "#WaterProblemBihar" OR "#बिहारपानीसमस्या"
+OR "#PaniNahiHai" OR "#पानीनहींहै"
+
+OR
+
+"Bihar Flood" OR "बिहार बाढ़"
+OR "Flood Problem Bihar" OR "बिहार बाढ़ समस्या"
+OR "Flood Affected Bihar" OR "बिहार बाढ़ प्रभावित"
+OR "Flood Relief Bihar" OR "बिहार बाढ़ राहत"
+OR "Flood Compensation Bihar" OR "बिहार बाढ़ मुआवजा"
+OR "Kosi Flood" OR "कोसी बाढ़"
+OR "Gandak Flood" OR "गंडक बाढ़"
+OR "Bagmati Flood" OR "बागमती बाढ़"
+OR "#BiharFlood" OR "#बिहारबाढ़"
+OR "#FloodReliefBihar" OR "#बिहारबाढ़राहत"
+OR "#KosiFlood" OR "#कोसीबाढ़"
+
+OR
+
+"Bihar Waterlogging" OR "बिहार जलजमाव"
+OR "Patna Waterlogging" OR "पटना जलजमाव"
+OR "Drainage Problem Bihar" OR "बिहार जल निकासी समस्या"
+OR "Blocked Drain Bihar" OR "बिहार नाला जाम"
+OR "Sewer Overflow Bihar" OR "बिहार सीवर ओवरफ्लो"
+OR "#BiharWaterlogging" OR "#बिहारजलजमाव"
+OR "#PatnaWaterlogging" OR "#पटनाजलजमाव"
+OR "#NalaJam" OR "#नालाजाम"
+
+OR
+
+"Bihar Garbage Problem" OR "बिहार कचरा समस्या"
+OR "Garbage Not Collected Bihar" OR "बिहार में कचरा नहीं उठा"
+OR "Sanitation Problem Bihar" OR "बिहार सफाई समस्या"
+OR "Waste Management Bihar" OR "बिहार कचरा प्रबंधन"
+OR "#BiharGarbage" OR "#बिहारकचरा"
+OR "#GarbageProblemBihar" OR "#बिहारकचरासमस्या"
+OR "#SafaiNahiHui" OR "#सफाईनहींहुई"
+
+OR
+
+"Bihar Hospital Problem" OR "बिहार अस्पताल समस्या"
+OR "Government Hospital Bihar" OR "बिहार सरकारी अस्पताल"
+OR "Doctor Not Available Bihar" OR "बिहार में डॉक्टर उपलब्ध नहीं"
+OR "Medicine Not Available Bihar" OR "बिहार में दवा उपलब्ध नहीं"
+OR "Ambulance Problem Bihar" OR "बिहार एम्बुलेंस समस्या"
+OR "#BiharHealth" OR "#बिहारस्वास्थ्य"
+OR "#HospitalProblemBihar" OR "#बिहारअस्पतालसमस्या"
+OR "#DoctorNotAvailable" OR "#डॉक्टरउपलब्धनहीं"
+
+OR
+
+"Bihar School Problem" OR "बिहार स्कूल समस्या"
+OR "Government School Bihar" OR "बिहार सरकारी स्कूल"
+OR "Teacher Absent Bihar" OR "बिहार शिक्षक अनुपस्थित"
+OR "School Building Problem Bihar" OR "बिहार विद्यालय भवन समस्या"
+OR "School Toilet Problem Bihar" OR "बिहार स्कूल शौचालय समस्या"
+OR "#BiharEducation" OR "#बिहारशिक्षा"
+OR "#BiharSchoolProblem" OR "#बिहारस्कूलसमस्या"
+OR "#TeacherAbsent" OR "#शिक्षकअनुपस्थित"
+
+OR
+
+"Bihar Ration Problem" OR "बिहार राशन समस्या"
+OR "Ration Not Received Bihar" OR "बिहार में राशन नहीं मिला"
+OR "Ration Card Problem Bihar" OR "बिहार राशन कार्ड समस्या"
+OR "PDS Complaint Bihar" OR "बिहार पीडीएस शिकायत"
+OR "Ration Dealer Complaint Bihar" OR "बिहार राशन डीलर शिकायत"
+OR "#BiharRation" OR "#बिहारराशन"
+OR "#RationNotReceived" OR "#राशननहींमिला"
+OR "#RationCardProblem" OR "#राशनकार्डसमस्या"
+
+OR
+
+"Bihar Pension Problem" OR "बिहार पेंशन समस्या"
+OR "Pension Not Received Bihar" OR "बिहार में पेंशन नहीं मिली"
+OR "Old Age Pension Bihar" OR "बिहार वृद्धावस्था पेंशन"
+OR "Widow Pension Bihar" OR "बिहार विधवा पेंशन"
+OR "Disability Pension Bihar" OR "बिहार दिव्यांग पेंशन"
+OR "#BiharPension" OR "#बिहारपेंशन"
+OR "#PensionNotReceived" OR "#पेंशननहींमिली"
+
+OR
+
+"Bihar Government Scheme" OR "बिहार सरकारी योजना"
+OR "Bihar Yojana" OR "बिहार योजना"
+OR "Scheme Benefit Not Received" OR "योजना का लाभ नहीं मिला"
+OR "Scheme Payment Pending" OR "योजना का भुगतान लंबित"
+OR "DBT Problem Bihar" OR "बिहार डीबीटी समस्या"
+OR "DBT Money Not Received" OR "डीबीटी का पैसा नहीं मिला"
+OR "#BiharYojana" OR "#बिहारयोजना"
+OR "#GovernmentSchemeBihar" OR "#बिहारसरकारीयोजना"
+OR "#YojanaBenefit" OR "#योजनाकालाभ"
+
+OR
+
+"Nal Jal Yojana Bihar" OR "बिहार नल जल योजना"
+OR "Har Ghar Nal Ka Jal" OR "हर घर नल का जल"
+OR "Nal Jal Problem Bihar" OR "बिहार नल जल समस्या"
+OR "No Water in Tap Bihar" OR "बिहार में नल में पानी नहीं"
+OR "#NalJalYojana" OR "#नलजलयोजना"
+OR "#HarGharNalKaJal" OR "#हरघरनलकाजल"
+OR "#NalJalProblem" OR "#नलजलसमस्या"
+
+OR
+
+"Awas Yojana Bihar" OR "बिहार आवास योजना"
+OR "Housing Scheme Bihar" OR "बिहार आवास योजना"
+OR "Awas Not Received" OR "आवास नहीं मिला"
+OR "Awas Payment Not Received" OR "आवास योजना का पैसा नहीं मिला"
+OR "#AwasYojanaBihar" OR "#बिहारआवासयोजना"
+OR "#AwasNotReceived" OR "#आवासनहींमिला"
+
+OR
+
+"Farmer Problem Bihar" OR "बिहार किसान समस्या"
+OR "Crop Damage Bihar" OR "बिहार फसल नुकसान"
+OR "Crop Compensation Bihar" OR "बिहार फसल मुआवजा"
+OR "Irrigation Problem Bihar" OR "बिहार सिंचाई समस्या"
+OR "Fertilizer Shortage Bihar" OR "बिहार खाद की कमी"
+OR "#BiharFarmer" OR "#बिहारकिसान"
+OR "#FarmerProblemBihar" OR "#बिहारकिसानसमस्या"
+OR "#CropDamageBihar" OR "#बिहारफसलनुकसान"
+
+OR
+
+"Traffic Problem Bihar" OR "बिहार यातायात समस्या"
+OR "Traffic Jam Bihar" OR "बिहार ट्रैफिक जाम"
+OR "Patna Traffic Jam" OR "पटना ट्रैफिक जाम"
+OR "Traffic Signal Problem Bihar" OR "बिहार ट्रैफिक सिग्नल समस्या"
+OR "#BiharTraffic" OR "#बिहारट्रैफिक"
+OR "#TrafficJamBihar" OR "#बिहारट्रैफिकजाम"
+OR "#PatnaTrafficJam" OR "#पटनाट्रैफिकजाम"
+
+OR
+
+"Street Light Problem Bihar" OR "बिहार स्ट्रीट लाइट समस्या"
+OR "Street Light Not Working" OR "स्ट्रीट लाइट खराब"
+OR "Street Light Off Bihar" OR "बिहार में स्ट्रीट लाइट बंद"
+OR "#BiharStreetLight" OR "#बिहारस्ट्रीटलाइट"
+OR "#StreetLightProblem" OR "#स्ट्रीटलाइटसमस्या"
+
+OR
+
+"Bridge Problem Bihar" OR "बिहार पुल समस्या"
+OR "Broken Bridge Bihar" OR "बिहार में टूटा पुल"
+OR "Damaged Bridge Bihar" OR "बिहार में क्षतिग्रस्त पुल"
+OR "Bridge Repair Bihar" OR "बिहार पुल मरम्मत"
+OR "#BiharBridge" OR "#बिहारपुल"
+OR "#BrokenBridgeBihar" OR "#टूटापुलबिहार"
+
+OR
+
+"Encroachment Bihar" OR "बिहार अतिक्रमण"
+OR "Illegal Encroachment Bihar" OR "बिहार अवैध अतिक्रमण"
+OR "Road Encroachment Bihar" OR "बिहार सड़क अतिक्रमण"
+OR "Footpath Encroachment Bihar" OR "बिहार फुटपाथ अतिक्रमण"
+OR "#BiharEncroachment" OR "#बिहारअतिक्रमण"
+OR "#IllegalEncroachment" OR "#अवैधअतिक्रमण"
+
+OR
+
+"Bihar Public Grievance" OR "बिहार जन शिकायत"
+OR "Bihar Public Complaint" OR "बिहार जन शिकायत"
+OR "Bihar Citizen Complaint" OR "बिहार नागरिक शिकायत"
+OR "Bihar Public Problem" OR "बिहार जन समस्या"
+OR "Bihar Civic Issue" OR "बिहार नागरिक समस्या"
+OR "People Facing Problem Bihar" OR "बिहार में जनता परेशान"
+OR "#BiharPublicGrievance" OR "#बिहारजनशिकायत"
+OR "#BiharComplaint" OR "#बिहारशिकायत"
+OR "#BiharPublicProblem" OR "#बिहारजनसमस्या"
+OR "#CitizenComplaintBihar" OR "#बिहारनागरिकशिकायत"
+OR "#JantaPareshan" OR "#जनतापरेशान"

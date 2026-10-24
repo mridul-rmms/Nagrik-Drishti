@@ -1,27 +1,51 @@
 # Nagrik Drishti
 
-Nagrik Drishti is a hackathon-ready, human-in-the-loop civic grievance intelligence MVP for Bihar. It converts authorised or manually imported public-style complaints into location-aware issue clusters, then gives officers an explainable priority score, routing recommendation, evidence bundle, and lifecycle workflow.
+**A human-in-the-loop civic grievance intelligence platform for Bihar.**
 
-> All seeded posts are synthetic demonstration data. This project does not scrape social platforms, sign in to accounts, or claim access to government ticketing systems.
+Nagrik Drishti turns authorised or manually imported public-style complaints into location-aware issue clusters. For each cluster, officers get an explainable priority score, a department routing recommendation, an evidence bundle, and a full lifecycle workflow.
 
-## What is implemented
+> **Note:** All seeded posts are synthetic demonstration data. This project does not scrape social platforms, sign in to accounts, or claim access to any government ticketing system.
 
-- Persistent SQLite database using Node.js native `node:sqlite`.
-- Synthetic Bihar-style source-post seeding in Hindi, Hinglish, and English.
-- Deterministic, transparent civic-complaint analysis for relevance, category, sentiment, urgency, location, action, and department routing.
-- Issue clustering using text, category, time, evidence label, and Haversine-distance similarity.
-- Explainable priority calculation using severity, urgency/sentiment, report volume, engagement, and sensitive-location context.
-- Officer lifecycle: `Detected → Needs Review → Verified → Assigned → In Progress → Resolved → Closed`, plus `Rejected`.
-- Audit events for AI and officer actions.
-- Command-centre dashboard, monitoring inbox, cluster workspace, map hotspot view, graph insights, and trend table.
-- Unit tests for AI analysis, duplicate detection, priority scoring, and allowed lifecycle transitions.
+## Table of Contents
 
-## Project structure
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [API Reference](#api-reference)
+- [Demo Walkthrough](#demo-walkthrough)
+- [Limitations](#limitations)
+
+## Features
+
+**Analysis and clustering**
+- Synthetic Bihar-style complaints in Hindi, Hinglish, and English.
+- Transparent, rule-based analysis of relevance, category, sentiment, urgency, location, action, and department routing.
+- Issue clustering based on text, category, time, evidence label, and Haversine-distance similarity.
+
+**Prioritisation and workflow**
+- Explainable priority score built from severity, urgency/sentiment, report volume, engagement, and sensitive-location context.
+- Officer lifecycle: `Detected → Needs Review → Verified → Assigned → In Progress → Resolved → Closed`, with `Rejected` as an alternative outcome.
+- Audit events for every AI and officer action.
+
+**Interface**
+- Command centre dashboard, monitoring inbox, cluster workspace, map hotspot view, graph insights, and trend table.
+
+**Quality**
+- Unit tests covering AI analysis, duplicate detection, priority scoring, and allowed lifecycle transitions.
+
+## Tech Stack
+
+- **Runtime:** Node.js 24+
+- **Database:** SQLite via the built-in `node:sqlite` module
+- **Testing:** Node.js built-in test runner
+
+## Project Structure
 
 ```text
 nagrik-drishti/
 ├── client/
-│   ├── index.html                 # Application shell only
+│   ├── index.html                 # Application shell
 │   ├── styles/                    # Tokens, layout, and components
 │   └── scripts/
 │       ├── api.js                 # API client
@@ -38,60 +62,66 @@ nagrik-drishti/
 └── package.json
 ```
 
-## Run locally
+## Getting Started
 
-Node.js 24 or later is required because this project uses the built-in SQLite module.
+### Prerequisites
+
+Node.js **24 or later** (required for the built-in SQLite module).
+
+### Run the app
 
 ```bash
 npm start
 ```
 
-Open [http://127.0.0.1:4173](http://127.0.0.1:4173).
+Then open [http://127.0.0.1:4173](http://127.0.0.1:4173).
 
-For development with automatic restart:
+On first startup, the app creates `data/nagrik-drishti.sqlite` and loads 24 synthetic source posts. The local database is Git-ignored.
+
+### Development mode
+
+Runs with automatic restart on file changes:
 
 ```bash
 npm run dev
 ```
 
-Run the test suite:
+### Run tests
 
 ```bash
 npm test
 ```
 
-The first startup creates `data/nagrik-drishti.sqlite` and loads 24 synthetic source posts. The local database is ignored by Git.
+## API Reference
 
-## API surface
-
-| Method | Endpoint | Purpose |
-|---|---|---|
+| Method | Endpoint | Description |
+|--------|----------|-------------|
 | GET | `/api/health` | Health check |
 | GET | `/api/dashboard` | Headline metrics and departmental workload |
-| GET | `/api/posts` | Imported source posts |
-| POST | `/api/posts` | Analyse and ingest one complaint |
+| GET | `/api/posts` | List imported source posts |
+| POST | `/api/posts` | Analyse and ingest a single complaint |
 | POST | `/api/posts/import` | Import a JSON array of posts |
-| GET | `/api/clusters` | Filterable issue clusters |
+| GET | `/api/clusters` | List issue clusters (filterable) |
 | GET | `/api/clusters/:id` | Cluster evidence, posts, and audit trail |
-| PATCH | `/api/clusters/:id` | Officer lifecycle, assignment, or routing update |
+| PATCH | `/api/clusters/:id` | Update lifecycle, assignment, or routing |
 | GET | `/api/hotspots` | Geographic hotspot data |
-| GET | `/api/trends` | Category/time trend data |
-| GET | `/api/graph` | Cluster/location/department graph |
+| GET | `/api/trends` | Category and time trend data |
+| GET | `/api/graph` | Cluster, location, and department graph |
 | GET | `/api/departments` | Department directory |
 
-## Demo walkthrough
+## Demo Walkthrough
 
 1. Open **Monitoring inbox**.
 2. Submit the supplied Hindi pothole complaint near Bhikhna Pahari school.
-3. Inspect the category, location, routing, duplicate signal, and priority recommendation.
+3. Review the detected category, location, routing, duplicate signal, and priority recommendation.
 4. Open the linked cluster from the result.
-5. Verify it, assign a field team, start work, then resolve it.
-6. Visit **Command centre** or **Insights & graph** to observe updated data.
+5. Verify the cluster, assign a field team, start work, then resolve it.
+6. Open **Command centre** or **Insights & graph** to see the updated data.
 
-## Safety and current limitations
+## Limitations
 
-- The default analysis engine is a transparent rule-based demo provider, not a trained production NLP or vision model.
+- The analysis engine is a transparent rule-based demo, not a trained production NLP or vision model.
 - Evidence labels are demo labels until an approved vision provider is configured.
 - The map is an illustrative Bihar-oriented hotspot visualisation, not an authoritative asset-ownership map.
-- Department routing is a recommendation; officers must confirm the responsible authority.
-- Real social-media ingestion, official ticketing integration, role-based authentication, and production object storage are future work requiring formal authorisation and data-governance review.
+- Department routing is only a recommendation; officers must confirm the responsible authority.
+- Real social-media ingestion, official ticketing integration, role-based authentication, and production object storage are future work. They require formal authorisation and a data-governance review.
